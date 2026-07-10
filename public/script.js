@@ -6,7 +6,7 @@ async function login() {
     if (username === "" || pasword === "") {
         return;
     }
-    const response = await fetch("/login", {
+    const response = await fetch("https://server-4aj4.onrender.com/login", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
